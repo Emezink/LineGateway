@@ -1,0 +1,31 @@
+{
+  "name": "line-gateway",
+  "version": "1.0.0",
+  "description": "LINE Bot Gateway",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "LINE",
+    "BOT",
+    "API"
+  ],
+  "author": "Ma'ruf Shidiq",
+  "license": "MIT",
+  "dependencies": {
+    "@line/bot-sdk": "^6.1.0",
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^4.13.14",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "passport-local": "^1.0.0",
+    "pkginfo": "^0.4.1",
+    "request": "^2.87.0"
+  }
+}
